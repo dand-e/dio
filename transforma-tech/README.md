@@ -1,11 +1,11 @@
-#Transforma Tech
+##Transforma Tech
 ## Dio & Grupo Carrefour
 Formação de profissionais FullStack
 
 ###Áreas de conhecimento
 
-- [] Portugol
-- [] Git/Github
+- [x] Portugol
+- [x] Git/Github
 - [] Java
 - [] JavaScript
 - [] CSS
