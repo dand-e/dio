@@ -2,7 +2,7 @@
 ## Aprendizados pela Dio
 
 
--[] Java
--[] JavaScript+CSS
+-[]  Java
+-[]  JavaScript+CSS
 - React
 - Cloud 
