@@ -1,4 +1,4 @@
-## Transforma Tech
+# Transforma Tech
 ## Dio & Grupo Carrefour
 Formação de profissionais FullStack
 
