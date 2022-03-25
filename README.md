@@ -1,7 +1,7 @@
-##Repositório de Conteúdo
+# Repositório de Conteúdo
 ## Aprendizados pela Dio
 
-##Principais áreas:
+## Principais áreas:
 
 - [ ] Java
 - [ ] JavaScript+CSS
