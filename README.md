@@ -1,9 +1,11 @@
 # Repositório de Conteúdo
 ## Aprendizados pela Dio
 
-## Principais áreas:
+## Principais áreas de interesse:
 
+- [ ] Python
 - [ ] Java
 - [ ] JavaScript+CSS
 - [ ] React
 - [ ] Cloud 
+
