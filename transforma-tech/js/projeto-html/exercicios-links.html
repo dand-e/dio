@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Estudo de Links</title>
+</head>
+<body>
+    <div>
+        <h1>Links</h1>
+        <p>Veremos hoje sobre links em HTML.<br>
+        Links podem ser imagem, texto ou botões, mas qualquer elemento HTML pode ser um link.<br>
+        Seja um direcionamento interno ou externo.</p>
+
+        <h2>Sintaxe</h2>
+        <p>A tag a é usada para identicar o link, seguido de href="caminho do link".</p>
+        <p>Links geralmente aparecerão da seguinte forma:</p>
+        <ul>
+            <li>Não visitado: azul e sublinhado</li>
+            <li>Visitado: roxo e sublinhado</li>
+            <li>Ativo: vermelho e sublinhado</li>
+        </ul>
+        <p>Para links internos não é necessário digitar o site inteiro. Pode-de usar {a href="paginas/pagina1.html"}Link para a página 1{/a} ou se estiver no diretorio anterior {a href="../pagina1.html"}Link para a página 1{/a} </p>
+
+        <h2>Target</h2>
+        <p>Por padrão a página vinculada será exibida na janela atual do navegador, mas considerando user experience isso pode mudar.</p>
+
+        <p>Possibilidades:</p>
+        <ul>
+            <li>_self: padrão e abre o documento na mesma janela ou guia</li>
+            <li>_blank: abre o link em uma nova janela ou guia</li>
+            <li>_parent: abre o documento no quadro pai</li>
+            <li>_top: abre o documento em todo o corpo da janela </li>
+        </ul>
+
+        <h2>URL absoluta vs. URL relativa</h2>
+        <p>URL absoluta é quando há o link completo, a relativa é usada para acessar diretórios dentro do própria página</p>
+
+        <h2>URL absoluta vs. URL relativa</h2>
+        <p>URL absoluta é quando há o link completo, a relativa é usada para acessar diretórios dentro do própria página</p>
+
+        <h2>Links em imagem</h2>
+        <p><a href="https://transformers.hasbro.com/pt-br" target="_blank"><img src="./img/bumblebee-movie.jpg" alt="Bumblebee" style="width:250px;height:150px;" ></a></p>
+        
+        <p><a href="https://github.com/dand-e/dio/tree/main/transforma-tech" target="_self"><img src="./img/github.png" alt="GitHub" style="width:150px;height:150px;" ></a></p>
+
+        <h2>Links para email</h2>
+        <p>Sem botão </p>
+        <p><a href="mailto:someone@example.com">Enviar</a></p>
+        <p>No botão</p>
+        <p><a href="mailto:someone@example.com"><button>Enviar</button></a></p>
+    </div>
+    <h2>Links em botões</h2>
+        <button onclick="document.location='https://dio.me'">DIO</button>
+</body>
+</html>
