@@ -6,8 +6,10 @@ Formação de profissionais FullStack
 
 - [x] Portugol
 - [x] Git/Github
-- [ ] Java
+- [x] HTML
+- [ ] CSS
 - [ ] JavaScript
+- [ ] Java
 - [ ] CSS
 - [ ] React
 - [ ] Cloud 
