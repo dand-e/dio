@@ -13,10 +13,10 @@
         <p>Usando JS</p><br>
         <p>Ao submeter o formulário, é retornada uma mensagem</p><br>
         <form action="" onsubmit="myFunction()" method="POST">
-            Seu nome: <input type="text" name="fname" id="fname"><br>
-            Seu sobrenome: <input type="text" name="lname" id="lname"><br>
-            Data de nascimento: <input type="date" id="bdate" ><br>
-            Sua idade: <input type="number" name="age" id="age"><br>
+            Seu nome: <input type="text" name="fname" id="fname" required="true"><br>
+            Seu sobrenome: <input type="text" name="lname" id="lname" required="true"><br>
+            Data de nascimento: <input type="date" id="bdate" required="true"><br>
+            Sua idade: <input type="number" name="age" id="age" required="true"><br>
             Aceitar termos: <input type="checkbox" id="agree" value="accept" required="true"><br>
             <input type="submit" value="Enviar">
         </form>

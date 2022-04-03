@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <form action="" autocomplete="on" method="post">
+        <form action="./login.html" id="formulario" autocomplete="on" method="post">
             <table>
                 <tr>
                     <th colspan="4">Formulário de cadastro</th>    
@@ -81,14 +81,19 @@
                     <td><input type="file" name="photo" id="photo" required>  </td>
                 </tr>
                 <tr>
-                    <td> <input type="submit" value="Cadastrar"></td>
+                    <td><input type="submit"  value="Cadastrar" onclick="return cadDone();" ></td>
                     <td> <input type="reset" value="Limpar"> </td>
                 </tr>
             </table>
         </form>
     </div>
 <script>
-    
+    function cadDone() {
+        //adicione uma condição de validação do formulario aqui
+        // if document.getElementById("formulario").validation == true{}
+        alert("Cadastro efeituado com sucesso! Verifique a confirmação no seu email.");
+        return true;
+    }
 </script>
 </body>
 </html>
