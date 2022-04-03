@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução aos Formulários - Part2</title>
+</head>
+<body>
+    <div>
+        <h1>Formulários</h1>
+        <h2>Formulário 1</h2>
+        <p>Value vs. Placeholder</p>
+        <form action="/action_page.php">
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname" value="Nome"><br>
+            <label for="lname">Sobrenome:</label><br>
+            <input type="text" id="lname" name="lname" value="Sobrenome"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+        <br>
+        <br>
+        <h2>Formulário 2</h2>
+        <p>{required} é um atributo que não permite o envio sem o preenchimento do input</p>
+        <form action="/action_page.php" method="POST">
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Nome" required="true"><br>
+            <label for="lname">Sobrenome:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Sobrenome" required="true"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    </div>
+</body>
+</html>

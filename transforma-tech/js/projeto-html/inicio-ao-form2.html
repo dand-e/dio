@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução aos Formulários - Part3</title>
+</head>
+<body>
+    <div>
+        <h1>Formulários</h1>
+        <h2>Formulário 3</h2>
+        <p>Usando JS</p><br>
+        <p>Ao submeter o formulário, é retornada uma mensagem</p><br>
+        <form action="" onsubmit="myFunction()" method="POST">
+            Seu nome: <input type="text" name="fname" id="fname"><br>
+            Seu sobrenome: <input type="text" name="lname" id="lname"><br>
+            Data de nascimento: <input type="date" id="bdate" ><br>
+            Sua idade: <input type="number" name="age" id="age"><br>
+            Aceitar termos: <input type="checkbox" id="agree" value="accept" required="true"><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <script>
+        function myFunction(){
+            var nome = document.getElementById("fname").value;
+            var sobrenome = document.getElementById("lname").value;
+            var idade = document.getElementById("age").value;
+            var dataNasc = document.getElementById("bdate").value
+            alert("Nome: "+ nome + " " + sobrenome + "\nIdade: " + idade + "\nData de nascimento: " + dataNasc);
+        }
+        </script>
+    </div>
+</body>
+</html>

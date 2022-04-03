@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios com Form 2.2</title>
+</head>
+<body>
+    <div>
+        <h2>Formulário fora da tabela 2</h2>
+        <p>Uso do método <em>POST</em>, <strong>deve</strong> ser usado para informações sensiveis.<br>
+        Autocomplete is OFF!
+        </p>
+        <form action="" autocomplete="off" target="_blank" method="post" name="form2" accept-charset="UTF-8">
+            <fieldset>
+                <legend>Registro </legend>
+                <label for="fname">Nome:</label><br>
+                <input type="text" name="fname" id="fname" required="true">
+                <label for="lname">Sobrenome:</label>
+                <input type="text" name="lname" id="lname" required="true">
+            </fieldset>
+            <fieldset>
+                <legend>Datas</legend>
+                <label for="age">Idade: </label>
+                <input type="number" name="age" id="age" required="true">
+                <label for="bday">Data de nascimento</label>
+                <input type="date" name="bday" id="bday" required="true">
+            </fieldset>
+            <fieldset>
+                <legend>Contato</legend>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required="true">
+                <label for="cnumber">Celular</label>
+                <input type="tel" name="cnumber" id="cnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}" required="true">
+                <label for="address">Endereço</label>
+                <input type="text" name="address" id="address" required="true">
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>

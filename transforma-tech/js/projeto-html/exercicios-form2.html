@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios com Form 1.2</title>
+</head>
+<body>
+    <div>
+        <form action="" method="post">
+            <table style="width:300px;">
+                <caption><h3>Formulário na tabela 2</h3></caption>
+                <tr>
+                    <th colspan="4"><h4>Formulário de Cadastro</h4></th>
+                </tr>        
+                <tr>
+                    <td><label for="fname">Nome
+                    </label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Nome" required="true"></td>
+                    <td><label for="lname">Sobrenome </label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Sobrenome" required="true"></td>
+                </tr>
+                <tr>
+                    <td><label for="bday">Data de nascimento </label><br>
+                    <input type="date" id="bday" name="bday" required="true"></td>
+                    <td><label for="email">Email </label><br>
+                    <input type="email" id="email" name="email" placeholder="email@email.com" required="true"></td>
+                </tr>
+                <tr>
+                    <td><label for="job">Profissão</label><br>
+                    <input type="text" id="job" name="job" required="true"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Endereço </label><br>
+                    <input type="text" id="address" name="address" required="true"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><label for="desc">Descrição </label><br>
+                    <textarea id="desc" name="desc" rows="5" cols="30"  required="true">Escreva aqui</textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"  value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
