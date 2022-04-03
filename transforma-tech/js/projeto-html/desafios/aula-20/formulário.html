@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Desafio Formulário - Formulario</title>
+</head>
+<body>
+    <div>
+        <form action="" autocomplete="on" method="post">
+            <table>
+                <tr>
+                    <th colspan="4">Formulário de cadastro</th>    
+                </tr>
+                <tr>
+                    <td><label for="fname">Nome </label></td>
+                    <td><input type="text" name="fname" id="fname" required="true"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Sobrenome </label></td>
+                    <td><input type="text" name="lname" id="lname" required="true"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Endereço </label></td>
+                    <td> <textarea name="address" id="address" cols="30" rows="10" required="true"></textarea> </td>
+                </tr>
+                <tr>
+                    <td><label for="unit">Disciplinas </label></td>
+                    <td>
+                        <input type="checkbox" name="unit1" id="unit1" value="Programação">
+                        <label for="unit1">Programação</label><br>
+                        <input type="checkbox" name="unit2" id="unit2" value="Lógica">
+                        <label for="unit2">Lógica</label><br>
+                        <input type="checkbox" name="unit3" id="unit3" value="Algoritmos">
+                        <label for="unit3">Algoritmos</label><br>
+                        <input type="checkbox" name="unit4" id="unit4" value="Banco de Dados">
+                        <label for="unit4">Banco de Dados</label><br>
+                        <input type="checkbox" name="unit5" id="unit5" value="Mobile">
+                        <label for="unit5">Mobile</label><br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gênero </label></td>
+                    <td>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Mulher</label>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Homem</label>
+                        <input type="radio" id="other" name="gender">
+                        <label for="other">Outros</label>
+                        <input type="radio" id="not" name="gender" required>
+                        <label for="not">Não informar</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="age">Idade </label></td>
+                    <td> 
+                        <select name="age" id="age" required>
+                            <option value="" disabled selected>Selecione</option>
+                            <option value="baby">0-5</option>
+                            <option value="child">6-10</option>
+                            <option value="yteen">11-15</option>
+                            <option value="lteen">16-20</option>
+                            <option value="20s">21-30</option>
+                            <option value="30s">31-40</option>
+                            <option value="40s">41-50</option>
+                            <option value="50s">51-60</option>
+                            <option value="60s">61-70</option>
+                            <option value="70s">71-80</option>
+                            <option value="80s">81-90</option>
+                            <option value="90s">91-100</option>
+                            <option value="100s">+100</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="photo">Foto de perfil </label></td>
+                    <td><input type="file" name="photo" id="photo" required>  </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" value="Cadastrar"></td>
+                    <td> <input type="reset" value="Limpar"> </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+<script>
+    
+</script>
+</body>
+</html>
