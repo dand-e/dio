@@ -17,3 +17,6 @@
 - [Exercicio3](/transforma-tech/js/projeto-html/exercicios-form2.html) - Formulário na tabela 2
 - [Exercicio4](/transforma-tech/js/projeto-html/exercicios-form3.html) - Formulário na tabela 3
 - [Exercicio5](/transforma-tech/js/projeto-html/exercicios-form4.html) - Formulário na tabela 4
+
+## Links para desafios:
+- [Aula 20](/transforma-tech/js/projeto-html/desafios/aula-20/) - Formulários
